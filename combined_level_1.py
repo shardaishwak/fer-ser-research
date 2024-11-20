@@ -1,3 +1,10 @@
+"""
+
+In this apporach, we predict both facial and emotion.
+then we combine both the mdoels with weights. For instnace, 0.3 weight for speech and 0.7 for audio.
+
+This is the simplest, level 1 approach to combine the models.
+"""
 import cv2
 import pyaudio
 import numpy as np
